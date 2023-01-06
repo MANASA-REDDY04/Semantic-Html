@@ -1,0 +1,23 @@
+h1{
+    color:crimson;
+}
+h2{
+    color: darkcyan;
+}
+h3{
+    color:deeppink;
+}
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/**containers**/
+.fluid-container{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.center-container{
+    max-width: 600px;
+    margin: auto;
+}
