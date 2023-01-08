@@ -70,9 +70,16 @@ hr{
 } 
 
 /*header*/
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 7%;
+  }
 
 .hero{
     padding: 2rem;
+    padding-top: 2rem;
 }
 
 .hero .hero-img{
@@ -116,6 +123,10 @@ text-align: center;
     0.5rem;
 }
 
+.footer .heading-footer{
+    font-weight: bold;
+    font-size: large;
+}
 .footer .link{
     color: white;
 }
